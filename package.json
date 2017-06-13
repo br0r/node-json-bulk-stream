@@ -1,0 +1,16 @@
+{
+  "name": "json-bulk-stream",
+  "version": "0.1.0",
+  "description": "Bulk JSON stream objects into arrays of n size",
+  "bin": {
+    "nbulk": "bin/nbulk.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viktor Silfverström <viktor@silfverstrom.com>",
+  "license": "MIT",
+  "dependencies": {
+    "split": "^1.0.0"
+  }
+}
