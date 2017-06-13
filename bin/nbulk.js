@@ -20,7 +20,10 @@ var t = new Transform({
   },
 
   flush: function (cb) {
-    this.push(JSON.stringify(b) + os.EOL);
+    if (b.length) {
+      this.push(JSON.stringify(b) + os.EOL);
+    }
+
     cb();
   },
 
